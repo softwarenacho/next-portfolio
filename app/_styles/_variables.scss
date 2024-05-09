@@ -1,0 +1,30 @@
+$main-blue: #2196f3;
+$shadow-red: #c62828;
+$btn-blue: #337ab7;
+$btn-green: #5cb85c;
+$btn-light-blue: #5bc0de;
+
+@mixin shadow {
+  filter: drop-shadow(1px 1px 1px $main-blue)
+    drop-shadow(-1px -1px 1px $shadow-red);
+  &:hover {
+    filter: drop-shadow(1px 1px 1px $shadow-red)
+      drop-shadow(-1px -1px 2px $main-blue);
+  }
+}
+
+@mixin pulse {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -12,7 +12,7 @@ body {
 
 body {
   color: white;
-  background: linear-gradient(to bottom, transparent, blue);
+  background: #a6d6d8;
   max-height: 100vh;
   overflow: scroll;
 }

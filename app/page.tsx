@@ -1,9 +1,10 @@
-import styles from './page.module.css';
+import Header from './_components/Header';
+import styles from './_styles/page.module.scss';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <header>{'<softwarenacho/>'}</header>
+      <Header />
       <section>Web Porfolio of Nacho Betancourt</section>
     </main>
   );
