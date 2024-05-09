@@ -14,6 +14,7 @@
   .banner {
     height: 100%;
     pre {
+      user-select: none;
       font-size: smaller;
     }
   }
@@ -21,20 +22,34 @@
     display: flex;
     gap: 1rem;
     margin-right: 1rem;
-    a {
+    a,
+    button {
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: x-large;
       border-radius: 10px;
-      width: 3rem;
-      height: 3rem;
+      border: none;
+      user-select: none;
       @include v.shadow;
-      &:hover {
-        img {
+      img {
+        -webkit-user-drag: none;
+        &:hover {
           @include v.pulse;
         }
       }
+    }
+    button {
+      gap: 0.5rem;
+      padding: 0.5rem;
+      text-transform: uppercase;
+      background: v.$bg-blue;
+      color: v.$shadow-red;
+      font-weight: bold;
+    }
+    a {
+      font-size: x-large;
+      width: 3rem;
+      height: 3rem;
       &.about {
         background-color: v.$btn-blue;
       }

@@ -1,0 +1,36 @@
+@use 'variables' as v;
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  h1 {
+    &:hover {
+      @include v.shadow;
+    }
+    font-size: xx-large;
+  }
+  img {
+    border-radius: 50%;
+    @include v.shadow;
+    &:hover {
+      @include v.pulse;
+    }
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: large;
+  color: v.$btn-blue;
+  user-select: none;
+  overflow: scroll;
+  max-height: 500px;
+  text-align: justify;
+  padding-right: 1rem;
+  line-height: 150%;
+  letter-spacing: 3px;
+}

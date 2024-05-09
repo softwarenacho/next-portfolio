@@ -1,7 +1,14 @@
 import Image from 'next/image';
+import { Dispatch, SetStateAction } from 'react';
 import styles from '../_styles/Header.module.scss';
 
-const Header = () => {
+const Header = ({
+  lang,
+  setLanguage,
+}: {
+  lang: string;
+  setLanguage: Dispatch<SetStateAction<string>>;
+}) => {
   const banner = (
     <pre>
       {`
@@ -37,6 +44,18 @@ const Header = () => {
             height={24}
           />
         </a>
+        {lang === 'es' && (
+          <button onClick={() => setLanguage('en')}>
+            {lang}
+            <Image src={'/icons/es.png'} alt='spanish' width={16} height={16} />
+          </button>
+        )}
+        {lang === 'en' && (
+          <button onClick={() => setLanguage('es')}>
+            {lang}
+            <Image src={'/icons/en.png'} alt='english' width={16} height={16} />
+          </button>
+        )}
       </div>
     </header>
   );
