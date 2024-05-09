@@ -5,6 +5,7 @@ $btn-green: #5cb85c;
 $btn-light-blue: #5bc0de;
 
 @mixin shadow {
+  transition: all 0.5s;
   filter: drop-shadow(1px 1px 1px $main-blue)
     drop-shadow(-1px -1px 1px $shadow-red);
   &:hover {
@@ -14,7 +15,8 @@ $btn-light-blue: #5bc0de;
 }
 
 @mixin pulse {
-  animation: pulse 1s ease-in-out infinite;
+  transition: all 2s;
+  animation: pulse 2s ease-out infinite;
 }
 
 @keyframes pulse {
