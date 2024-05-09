@@ -2,7 +2,8 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: absolute;
   top: 0;
@@ -10,12 +11,23 @@
   height: 6rem;
   background: v.$main-blue;
   width: 100%;
+  gap: 1rem;
   @include v.shadow;
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .banner {
-    height: 100%;
+    @media screen and (min-width: 900px) {
+      height: 100%;
+    }
     pre {
       user-select: none;
-      font-size: smaller;
+      font-size: 5px;
+      margin-right: 16px;
+      @media screen and (min-width: 900px) {
+        font-size: 10px;
+      }
     }
   }
   .buttons {
@@ -39,17 +51,45 @@
       }
     }
     button {
-      gap: 0.5rem;
-      padding: 0.5rem;
+      cursor: pointer;
+      gap: 0.25rem;
+      padding: 0.25rem;
       text-transform: uppercase;
       background: v.$bg-blue;
       color: v.$shadow-red;
       font-weight: bold;
+      font-size: 10px;
+      img {
+        max-width: 12px;
+        max-height: 12px;
+      }
+      @media screen and (min-width: 900px) {
+        gap: 0.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        img {
+          max-width: 16px;
+          max-height: 16px;
+        }
+      }
     }
     a {
-      font-size: x-large;
-      width: 3rem;
-      height: 3rem;
+      font-size: small;
+      width: 1.5rem;
+      height: 1.5rem;
+      img {
+        max-width: 12px;
+        max-height: 12px;
+      }
+      @media screen and (min-width: 900px) {
+        font-size: x-large;
+        width: 3rem;
+        height: 3rem;
+        img {
+          max-width: 24px;
+          max-height: 24px;
+        }
+      }
       &.about {
         background-color: v.$btn-blue;
       }

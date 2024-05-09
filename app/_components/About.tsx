@@ -11,30 +11,30 @@ const About = ({ lang, texts }: { lang: string; texts: any }) => {
             <h1>{texts.about?.title[lang]}</h1>
             <p>
               {texts.about?.description?.p0[lang]}
-              <span>Ruby on Rails, </span>
-              <span>React, </span>
-              <span>Typescript </span>
+              <span style={{ color: '#ec1622' }}>Ruby on Rails, </span>
+              <span style={{ color: '#1c2c4c' }}>React, </span>
+              <span style={{ color: '#f1dd35' }}>Typescript </span>
               {texts.about?.and[lang]}
-              <span>Next.js </span>
+              <span style={{ color: 'black' }}>Next.js </span>
             </p>
             <p>{texts.about?.description?.p1[lang]}</p>
             <p>
               {texts.about?.description?.p2[lang]}
-              <span>JS </span>
+              <span style={{ color: '#f1dd35' }}>JS </span>
               {texts.about?.and[lang]}
-              <span style={{ color: '#EC1622' }}>Ruby on Rails </span>
+              <span style={{ color: '#ec1622' }}>Ruby on Rails </span>
               {texts.about?.in[lang]}
-              <span>{'{'}</span>
-              <span>Codea</span>
-              <span>Camp</span>
-              <span>{'}'}</span>
+              <span style={{ color: 'black' }}>{'{'}</span>
+              <span style={{ color: '#f1dd35' }}>Codea</span>
+              <span style={{ color: '#1c2c4c' }}>Camp</span>
+              <span style={{ color: 'black' }}>{'}'}</span>
               {texts.about?.description?.p3[lang]}
             </p>
             <p>
               {texts.about?.description?.p4[lang]}
-              <span style={{ color: '#C1002F' }}>Angular </span>
+              <span style={{ color: '#c1002f' }}>Angular </span>
               {texts.about?.in[lang]}
-              <span style={{ color: '#721D91' }}>iVoy</span>
+              <span style={{ color: '#721d91' }}>iVoy</span>
               {texts.about?.description?.p5[lang]}
             </p>
             <p>{texts.about?.description?.p6[lang]}</p>

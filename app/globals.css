@@ -15,6 +15,7 @@ body {
   background: #a6d6d8;
   max-height: 100vh;
   overflow: scroll;
+  font-family: monospace;
 }
 
 a {
