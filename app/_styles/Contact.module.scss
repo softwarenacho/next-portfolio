@@ -1,0 +1,66 @@
+@use 'variables' as v;
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+  @media screen and (min-width: 1200px) {
+    justify-content: space-around;
+    gap: 4rem;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: black;
+  img {
+    @include v.shadow;
+    border-radius: 50%;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  background: v.$btn-blue;
+  border-radius: 10px;
+  padding: 4rem;
+  @include v.shadow;
+  .links {
+    display: flex;
+    gap: 1rem;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 10px;
+      @include v.shadow;
+      &:nth-child(1),
+      &:nth-child(3) {
+        background: v.$main-blue;
+      }
+      &:nth-child(2),
+      &:nth-child(5) {
+        background: black;
+      }
+      &:nth-child(4) {
+        background: v.$btn-green;
+      }
+      &:nth-child(6) {
+        background: v.$shadow-red;
+      }
+    }
+  }
+}

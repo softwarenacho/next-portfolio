@@ -3,6 +3,10 @@
     "es": "Proyectos",
     "en": "Projects"
   },
+  "subtitle": {
+    "es": "(Haz click en cada imagen para abrir su galería)",
+    "en": "(Click on each project image to open gallery)"
+  },
   "projects": [
     {
       "title": {
@@ -19,16 +23,14 @@
         "https://i.imgur.com/DLD6TDw.png",
         "https://i.imgur.com/1vsz17o.png"
       ],
-      "width": 620,
-      "height": 620,
       "description": {
-        "es": "Este es un proyecto personal que desarrollé con el objetivo de implementar y aprender las versiones más actuales de Next.js y React con Typescript, también fue la primera vez que implementé una base de datos no relacional con MongoDB, el manejo de matrices de 2 dimensiones para la generación de todos los recursos gráficos fue un reto muy interesante, tambien el desarrollo de los controles y la unificación de cada una de las partes hasta lograr empezar un juego nuevo.",
-        "en": "..."
+        "es": "Este es un proyecto personal que desarrollé con el objetivo de implementar y aprender las versiones más actuales de Next.js y React con Typescript, también fue la primera vez que implementé una base de datos no relacional con MongoDB, el manejo de matrices de 2 dimensiones para la generación de todos los recursos gráficos, fue un reto muy interesante, tambien el desarrollo de los controles y la unificación de cada una de las partes hasta lograr empezar un juego nuevo.",
+        "en": "This is a personal project that I developed with the goal of implementing and learning the most current versions of Next.js and React with Typescript, it was also the first time I implemented a non-relational database with MongoDB, handling 2-dimensional arrays for the generation of all the graphic resources, it was a very interesting challenge, also the development of the controls and the unification of each of the parts until we were able to start a new game."
       },
       "cta": [
         {
-          "link": "https://master-trainer.nacho.software/",
-          "repo": ""
+          "link": "https://master-trainer.nacho.software",
+          "label": "Website"
         }
       ]
     },
@@ -44,16 +46,14 @@
         "https://i.imgur.com/FKyRZA5.png",
         "https://i.imgur.com/0WhXP8D.png"
       ],
-      "width": 708,
-      "height": 620,
       "description": {
-        "es": "AIDA Dreams es una aplicación interna desarrollada con el objetivo de interpretar sueños luego de una plática con ChatGPT por medio de diferentes herramientas de OpenAI. Implementé web-sockets para lograr una comunicación multi canal desde un solo emitor",
-        "en": "..."
+        "es": "AIDA Dreams es una aplicación interna desarrollada con el objetivo de interpretar sueños luego de una plática con ChatGPT por medio de diferentes herramientas de OpenAI. Implementé web-sockets para lograr una comunicación multi canal desde un solo emitor.",
+        "en": "AIDA Dreams is an internal application developed with the objective of interpreting dreams after a conversation with ChatGPT through different OpenAI tools. I implemented web-sockets to achieve multi-channel communication from a single emitter."
       },
       "cta": [
         {
-          "link": "",
-          "repo": ""
+          "link": "https://aida.nacho.software",
+          "label": "Website"
         }
       ]
     },
@@ -69,18 +69,11 @@
         "https://i.imgur.com/HxbBf01.png",
         "https://i.imgur.com/mmKlgXL.png"
       ],
-      "width": 708,
-      "height": 620,
       "description": {
         "es": "Esta aplicación fue una prueba de concepto realizada con el objetivo de implementar comunicación con ChatGPT y Whisper de OpenAI para convertir un video en texto y de este extraer la información relevante en una serie de puntos y un resumen del contenido, se implementó tambien un chat que permite hacer preguntas acerca del contenido del video.",
-        "en": "..."
+        "en": "This app was a proof of concept developed with the objective of implementing communication with ChatGPT and Whisper from OpenAI to convert a video into text and from this extract the relevant information in a series of points and a summary of the content, a chat was also implemented that allows you to ask questions about the content of the video."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -92,18 +85,11 @@
         "https://i.imgur.com/YjeCRlJ.jpeg",
         "https://i.imgur.com/Z5tBPp9.png"
       ],
-      "width": 708,
-      "height": 410,
       "description": {
-        "es": "Esta aplicación fue desarrollado como un proyecto interno de Wizeline con el objetivo de predecir los ingresos por salario de los desarrolladores con un mes o dos de anticipación, esta herramienta permite al equipo de finanzas llevar un mejor control de los ingresos esperados por cada cliente y unidad de negocio. Implementa conexiones a Salesforce donde se obtiene y condensa la información a mostrar en tablas que hacen un uso avanzado de filtros para su fácil manipulación",
-        "en": "..."
+        "es": "Esta aplicación fue desarrollado como un proyecto interno de Wizeline con el objetivo de predecir los ingresos por salario de los desarrolladores con un mes o dos de anticipación, esta herramienta permite al equipo de finanzas llevar un mejor control de los ingresos esperados por cada cliente y unidad de negocio. Implementa conexiones a Salesforce donde se obtiene y condensa la información a mostrar en tablas que hacen un uso avanzado de filtros para su fácil manipulación.",
+        "en": "This app was developed as an internal Wizeline project with the objective of predicting the salary income of developers a month or two in advance. This tool allows the finance team to keep better control of the expected income for each client and unit. of business. Implements connections to Salesforce where the information to be displayed is obtained and condensed into tables that make advanced use of filters for easy manipulation."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -114,16 +100,18 @@
         "https://i.imgur.com/f7uSFLT.png",
         "https://i.imgur.com/bRQGKGW.png"
       ],
-      "width": 986,
-      "height": 685,
       "description": {
-        "es": "Fantasy Football Masters fue mi proyecto final del bootcamp intensivo de programación, utilizando la base de datos de EA de los juegos de Fifa se creó una base de datos con la cual los usuarios pueden armar sus propios equipos con un presupuesto inicial y correr simulaciones de partidos contra sus amigos para ganar más dinero, la simulación de los partidos se creo con un algoritmo de más de 1mil líneas de código que itera más de 500 veces por partido y genera cada movimiento del juego considerando las habilidad, la posición en el campo y otras muchas variables.",
-        "en": "..."
+        "es": "Fantasy Football Masters fue mi proyecto final del bootcamp intensivo de programación, utilizando la base de datos de EA de los juegos de FIFA se creó una nueva base de datos con la cual los usuarios pueden armar sus propios equipos con un presupuesto inicial y correr simulaciones de partidos contra sus amigos para ganar más dinero, la simulación de los partidos se creo con un algoritmo de más de 1mil líneas de código que itera más de 500 veces por partido y genera cada movimiento del juego considerando las habilidad, la posición en el campo y otras muchas variables.",
+        "en": "Fantasy Football Masters was my final project of an intensive programming bootcamp, using EA's database of FIFA games, a new database was created with which users can build their own teams with an initial budget and run match simulations against your friends to win more money, the match simulation was created with an algorithm of more than 1 thousand lines of code that iterates more than 500 times per match and generates each movement of the game considering skills, position on the field and others many variables."
       },
       "cta": [
         {
           "link": "https://project-fs.vercel.app",
-          "repo": "https://github.com/softwarenacho/project-fs"
+          "label": "Website"
+        },
+        {
+          "link": "https://github.com/softwarenacho/project-fs",
+          "label": "Github"
         }
       ]
     },
@@ -139,18 +127,11 @@
         "https://i.imgur.com/wG8Anqi.png",
         "https://i.imgur.com/ON9EQ6m.png"
       ],
-      "width": 708,
-      "height": 620,
       "description": {
         "es": "Para SunPower trabajé en el proyecto de Eddie que maneja las cotizaciones que le realizan los vendedores al cliente, mi trabajo principal fue con Next.js y React, lo más interesante de este proyecto fue aprender a manejar los formatos de archivo de Autocad y la creación de PDFs orientados al cliente final.",
-        "en": "..."
+        "en": "For SunPower I worked on Eddie's project that manages the quotes and proposals that the sellers make for the client, my main work was with Next.js and React, the most interesting thing about this project was learning how to handle Autocad file formats and the creation of PDFs aimed at the end client."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -166,16 +147,18 @@
         "https://i.imgur.com/y9Bcruj.png",
         "https://i.imgur.com/8ZRCgLR.png"
       ],
-      "width": 708,
-      "height": 402,
       "description": {
-        "es": "Para DowJones he trabajado en los sitios de conferencias y eventos desarrollando diferentes componentes dentro de una libreria, el desarrollo principal consiste en mantener esta libreria que es compartida por múltiples proyectos, la base es un CRM en Wordpress y los componentes son desarrollados con React",
-        "en": "..."
+        "es": "Para DowJones he trabajado en los sitios de conferencias y eventos desarrollando diferentes componentes dentro de una libreria, el desarrollo principal consiste en mantener esta libreria que es compartida por múltiples proyectos, la base es un CRM en Wordpress y los componentes son desarrollados con React.",
+        "en": "For DowJones I have worked on conference and event sites developing different components within a library, the main development consists of maintaining this library that is shared by multiple projects, the base is a CRM in Wordpress and the components are developed with React."
       },
       "cta": [
         {
-          "link": "https://globalfood.wsj.com/",
-          "repo": ""
+          "link": "https://globalfood.wsj.com",
+          "label": "GFF site"
+        },
+        {
+          "link": "https://techlivecyber.wsj.com",
+          "label": "Cyber site"
         }
       ]
     },
@@ -188,16 +171,18 @@
         "https://i.imgur.com/ugncrYq.png",
         "https://i.imgur.com/k5VGUgM.png"
       ],
-      "width": 710,
-      "height": 811,
       "description": {
         "es": "Ésta una aplicación web que desarrollé como hobby con mi hijo, para explicarle algunos conceptos básicos de la programación web, con la euforía del mundial de futbol y la necesidad de intercambiar barajitas para llenar el álbum. Usando los recursos mínimos para su uso con datos móviles al intercambiar en Bellas Artes y ver de manera rápida nuestras repetidas usando filtros y actualizar en tiempo real las que conseguiamos, todo el procesamiento es invisible para el usuario final ya que guarda usando una API propia, no necesita iniciar sesión.",
-        "en": "..."
+        "en": "This is a web app that I developed as a hobby with the help of my son, to explain him some basic concepts of web programming, with the euphoria of the World Cup and the need to exchange cards to fill the album. Using the minimum resources for use with mobile data when exchanging in Bellas Artes (CDMX) and quickly seeing our repeated cards using filters and updating in real time the ones we got, all the processing is invisible to the end user since it saves using its own API, You don't need to log in."
       },
       "cta": [
         {
           "link": "https://softwarenacho.github.io/collector",
-          "repo": "https://github.com/softwarenacho/collector"
+          "label": "Website"
+        },
+        {
+          "link": "https://github.com/softwarenacho/collector",
+          "label": "Github"
         }
       ]
     },
@@ -213,16 +198,14 @@
         "https://i.imgur.com/pX7Gfha.png",
         "https://i.imgur.com/Q8thxD2.png"
       ],
-      "width": 658,
-      "height": 402,
       "description": {
         "es": "Mi trabajo principal fue en el desarrollo del sistema de micro-frontends con React que controla las secciones y busqueda de productos, permite a la aplicación lograr cargar diferentes repositorios de trabajo para cada uno de los principales componentes, que entre sí se nutren de una libreria de componentes en Storybook. Desarrollé una cobertura de 80% en las pruebas que antes no existía, el desarrollo responsivo y la optimización del rendimiento de la página.",
-        "en": "..."
+        "en": "My main work was in the development of the micro-frontend system with React that controls the sections and search for products, allowing the application to load different working repositories for each of the main components, which are fed by a library. of components in Storybook. Developed 80% test coverage that did not exist before, responsive development, and page performance optimization."
       },
       "cta": [
         {
           "link": "https://www.rappi.com.mx",
-          "repo": ""
+          "label": "Website"
         }
       ]
     },
@@ -237,16 +220,14 @@
         "https://i.imgur.com/KlgBJ6p.png",
         "https://i.imgur.com/ySLLdGr.png"
       ],
-      "width": 496,
-      "height": 724,
       "description": {
-        "es": "Ésta una aplicación web que desarrollé como hobby con mi hijo, para explicarle algunos conceptos básicos de la programación web, con la euforía del mundial de futbol y la necesidad de intercambiar barajitas para llenar el álbum. Usando los recursos mínimos para su uso con datos móviles al intercambiar en Bellas Artes y ver de manera rápida nuestras repetidas usando filtros y actualizar en tiempo real las que conseguiamos, todo el procesamiento es invisible para el usuario final ya que guarda usando una API propia, no necesita iniciar sesión.",
-        "en": "..."
+        "es": "Trabajé en este proyecto durante la transición que nos llevo a remodelar visualmente la aplicación, el objetivo principal fue mantener al estudiante usuario de la plataforma entretenido e involucrado con los aprendizajes recibidos, los diferentes tipos de contenido, video, texto, preguntas, fueron ajustados para mejor usabilidad y menores tiempos de carga.",
+        "en": "I worked on this project during the transition that led us to visually remodel the application, the main objective was to keep the student user of the platform entertained and involved with the learning received, the different types of content, video, text, questions, were adjusted to better usability and shorter loading times."
       },
       "cta": [
         {
-          "link": "https://softwarenacho.github.io/collector",
-          "repo": "https://github.com/softwarenacho/collector"
+          "link": "https://subject.com",
+          "label": "Website"
         }
       ]
     },
@@ -263,16 +244,14 @@
         "https://i.imgur.com/4szRnu5.png",
         ""
       ],
-      "width": 708,
-      "height": 410,
       "description": {
         "es": "En este proyecto hicimos el rediseño visual de la aplicación enfocado en hacerla responsiva para tener más mercado en usuarios móviles, el principal logro en este proyecto fue reducir los tiempos de carga de aplicación de más de 10 segundos a 2 o 3. El CRM para el blog fue optimizado para el uso de los usuarios internos.",
-        "en": "..."
+        "en": "In this project we did the visual redesign of the application focused on making it responsive to have more market in mobile users, the main achievement in this project was to reduce the application loading times from more than 10 seconds to 2 or 3. The CRM for the blog was optimized for use by internal users."
       },
       "cta": [
         {
           "link": "https://www.karvi.com.ar",
-          "repo": ""
+          "label": "Website"
         }
       ]
     },
@@ -285,16 +264,18 @@
         "https://i.imgur.com/Q75W0M4.png",
         "https://i.imgur.com/inakhK6.png"
       ],
-      "width": 1451,
-      "height": 974,
       "description": {
         "es": "Demostración de consumo de API's externas usando un mínimo de recursos, usando JS se obtiene una base de preguntas en diferentes categorías para después contestarlas en una interfaz simple e intuitiva pensada en una fácil experiencia de usuario con el objetivo de conectarla por medio de dispositivos como Chromecast a televisiones, así como su uso como una aplicación web progresiva lo que me permite guardar bases de preguntas como favoritas para su uso offline, desarrollo en proceso con Angular.",
-        "en": "..."
+        "en": "Demo of external APIs comsumption using the minimum resources possible, using JS a database of questions in different categories is obtained and then answered in a simple and intuitive interface designed for an easy user experience with the objective of connecting it through devices such as Chromecast to televisions, as well as its use as a progressive web application which allows me to save question bases as favorites for offline use, development in progress with Angular."
       },
       "cta": [
         {
           "link": "https://softwarenacho.github.io/trivia",
-          "repo": "https://github.com/softwarenacho/trivia"
+          "label": "Website"
+        },
+        {
+          "link": "https://github.com/softwarenacho/trivia",
+          "label": "Github"
         }
       ]
     },
@@ -307,18 +288,11 @@
         "https://i.imgur.com/ZNDUXKe.png",
         "https://i.imgur.com/xXCQ3o6.png"
       ],
-      "width": 1195,
-      "height": 628,
       "description": {
         "es": "Proyecto de propuestas que integra vía twitter la oportunidad de sugerir y agregar a las celebridades o artistas favoritos a una base de datos que los cuenta como votos para la generación de listas de invitados en diferentes eventos,este servicio se utilizó como parte de talleres en TagCDMX, CampusParty y para CódigoX iniciativa de la presidencia de la Republica, enseñando a los asistentes a desarrollar a una aplicación cliente donde mandan propuestas a esta.",
-        "en": "..."
+        "en": "Proposal project that integrates via Twitter the opportunity to suggest and add favorite celebrities or artists to a database that counts them as votes for the generation of guest lists at different events. This service was used as part of workshops at TagCDMX , CampusParty and for CodeX initiative of the presidency of the Republic, teaching attendees how to develop a client application where they send proposals to it."
       },
-      "cta": [
-        {
-          "link": "https://codea-codigox.herokuapp.com/proposals",
-          "repo": "https://github.com/softwarenacho/codeatag"
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -331,18 +305,11 @@
         "https://i.imgur.com/e2fuLRw.png",
         "https://i.imgur.com/t0CRYFd.png"
       ],
-      "width": 1272,
-      "height": 696,
       "description": {
         "es": "Múltiples funciones nuevas para la plataforma de cursos de {CodeaCamp}, en las imágenes se aprecia primero el sistema de reportes diarios que evalúa a los alumnos en cuanto a sus condiciones de trabajo, horarios de entrada y de salida, etc. El segundo es el sistema de seguimiento a las actividades de los alumnos, el cual cuenta con logs automatizados y manuales que nos ayudan a medir el desempeño y hacer métricas con el objetivo de mejorar el servicio de la escuela. Diseño y desarrollo de páginas estáticas para promociones de marketing integrando efectos de CSS como el efecto parallax y fondos animados con video, análisis y control de objetivos y campañas de marketing en Facebook, Twitter y Google, integración total del sistema CRM de Zoho con nuestra plataforma de trabajo, desarrollando los métodos que permiten la comunicación constante de sistemas por medio de servicios API.",
-        "en": "..."
+        "en": "Multiple new functions for the {CodeaCamp} course platform, in the images you can first see the daily reporting system that evaluates students in terms of their working conditions, arrival and departure times, etc. The second is the student activity monitoring system, which has automated and manual logs that help us measure performance and create metrics with the aim of improving the school's service. Design and development of static pages for marketing promotions integrating CSS effects such as the parallax effect and animated backgrounds with video, analysis and control of objectives and marketing campaigns on Facebook, Twitter and Google, full integration of the Zoho CRM system with our platform work, developing methods that allow constant communication of systems through API services."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -353,18 +320,11 @@
         "https://i.imgur.com/vlKTIAf.png",
         "https://i.imgur.com/6hyQBQS.png"
       ],
-      "width": 1272,
-      "height": 696,
       "description": {
         "es": "Mi primera aplicación independiente para {CodeaCamp}, sistema de distribución de lugares que utilizando un microservicio, que también desarrollé, que se comunica con la plataforma de estudio para obtener los alumnos inscritos en la escuela, permitiendo enlistarlos y por medio de objetos arrastrables añadirlo dinámicamente a sus asientos, considerando su horario de estudio, aplicación de uso interno, en la primera foto se puede ver el proceso de diseño y en la segunda el resultado final.",
-        "en": "..."
+        "en": "My first independent application for {CodeaCamp}, a place distribution system that uses a microservice, which I also developed, that communicates with the study platform to obtain the students enrolled in the school, allowing them to be listed and through draggable objects to add them dynamically to their seats, considering their study schedule, application for internal use, in the first photo you can see the design process and in the second the final result."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -377,16 +337,14 @@
         "https://i.imgur.com/jdjpBfb.png",
         "https://i.imgur.com/zxSrtRv.png"
       ],
-      "width": 772,
-      "height": 983,
       "description": {
         "es": "Página de contacto para cliente, incluye conexión a Facebook para recibir Like o compartir la página. Página web de presentación y contacto para cliente, cubre la necesidad de una productora músical de tener presencia web, información relevante, también logra recibir mensajes y demos a través de la página, así como compartir los últimos lanzamientos con la posibilidad de reproducirlos directamente sobre la aplicación.",
-        "en": "..."
+        "en": "Client contact page, includes connection to Facebook to like or share the page. Presentation and contact website for clients, covers the need of a music producer to have a web presence, relevant information, it also manages to receive messages and demos through the page, as well as share the latest releases with the possibility of playing them directly on the application."
       },
       "cta": [
         {
-          "link": "",
-          "repo": ""
+          "link": "https://softwarenacho.github.io/mdma/",
+          "label": "Website"
         }
       ]
     },
@@ -402,16 +360,14 @@
         "https://i.imgur.com/JCXoeSp.png",
         "https://i.imgur.com/DDQSuMG.png"
       ],
-      "width": 608,
-      "height": 307,
       "description": {
         "es": "Estuve a cargo del desarrollo de una remodelación visual de la plataforma para clientes de iVoy donde el enfoque principal fue su uso desde dispositivos moviles con responsividad para diversas plataformas desde celulares con pantalla pequeña hasta tablets y iPads, se mejoro también el flujo de la aplicación para funcionar en sólo 2 pasos en lugar de los anteriores 4. El servicio de busqueda de paquetes lo desarrollé con el objetivo de ayudar a la gente de almacen a escanear desde una computadora o celular el código QR o de barras de un paquete usando la camara de la misma, haciendo en el momento una conexión con los servidores que les permite saber la información completa del mismo, permitiendo también organizar por órden. Haciendo uso del API de google maps se realizó un mapa que muestra en tiempo real los paquetes con fácil identificación de color para sus diferentes estados, permitiendo también generar órdenes con los mismos seleccionando directamente en el mapa, lo que permite a los supervisores crear de manera más optima las rutas para los motociclistas. El servicio de zonas de alta demanda permite establecer zonas con precios preferentes para los mensajeros, permitiendo crear poligonos en el mapa, establecer los días y horarios aplicables a los mismos.",
-        "en": "..."
+        "en": "I was in charge of developing a visual remodeling of the platform for iVoy clients where the main focus was its use from mobile devices with responsiveness for various platforms from cell phones with small screens to tablets and iPads, the flow of the application was also improved for work in just 2 steps instead of the previous 4. I developed the package search service with the aim of helping warehouse people to scan the QR or barcode of a package from a computer or cell phone using the camera the same, making at the moment a connection with the servers that allows them to know the complete information of the same, also allowing them to organize by order. Using the Google Maps API, a map was created that shows the packages in real time with easy color identification for their different states, also allowing orders to be generated with them by selecting directly on the map, which allows supervisors to create more optimal routes for motorcyclists. The high demand areas service allows you to establish areas with preferential prices for couriers, allowing you to create polygons on the map and establish the days and times applicable to them."
       },
       "cta": [
         {
-          "link": "",
-          "repo": ""
+          "link": "https://ivoy.mx/",
+          "label": "Website"
         }
       ]
     },
@@ -424,18 +380,11 @@
         "https://i.imgur.com/nKpVSr0.png",
         "https://i.imgur.com/yXTuBxB.png"
       ],
-      "width": 1155,
-      "height": 682,
       "description": {
         "es": "Aplicación de uso personal que simula una red social con un número limitado de miembros, lo que permite una comunicación exclusiva entre padres e hijos, permite compartir textos, subir fotos o añadirlas de un link externo, compartir videos de youtube, reaccionar a los posts y comentar en los mismos, pero sobretodo brinda un espacio único y de confianza para fortalecer la comunicación.",
-        "en": "..."
+        "en": "Application for personal use that simulates a social network with a limited number of members, allowing exclusive communication between parents and children, allowing us to share texts, upload photos or add them from an external link, share YouTube videos, react to posts and comment on them, but above all it provides a unique and trustworthy space to strengthen communication."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -443,18 +392,11 @@
         "en": "Medvent"
       },
       "images": ["https://i.imgur.com/OVYgZEN.png"],
-      "width": 540,
-      "height": 263,
       "description": {
         "es": "Plataforma de venta en línea personalizada de productos farmaceuticos desarrollada de manera progresiva, lo que permite su uso como página web y como aplicación movil, así como uso de servicios offline para el cliente, incluye un panel de administración donde el administrador puede añadir productos y promociones, consultar las existencias y pedidos. El cliente puede seleccionar sus elementos en un carrito desde el es posible también realizar el pago gracias a la integración de Sr. Pago.",
-        "en": "..."
+        "en": "Customized online sales platform for pharmaceutical products developed progressively, which allows its use as a website and as a mobile application, as well as the use of offline services for the client, includes an administration panel where the administrator can add products and promotions , check stocks and orders. The customer can select their items in a cart from which it is also possible to make payment thanks to the integration of Sr. Pago."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": "https://github.com/softwarenacho/medvent-web"
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -462,18 +404,11 @@
         "en": "Clearview"
       },
       "images": ["https://i.imgur.com/2v8rg8W.png"],
-      "width": 1269,
-      "height": 687,
       "description": {
         "es": "Clearview es un proyecto enfocado en mejorar el proceso de trabajo de los desarrolladores de software con clientes, muestra diferentes secciones que permitirán al cliente tener la confianza de que su proyecto está avanzando y siendo trabajado día, mostrando el status y objetivos del mismo, así como las horas trabajadas por cada desarrollador, está desarrollado en Ruby on Rails usando la API de Teamwork como fuente.",
-        "en": "..."
+        "en": "Clearview is a project focused on improving the work process of software developers with clients, it shows different sections that will allow the client to have confidence that their project is progressing and being worked on every day, showing its status and objectives, as well as the hours worked by each developer, is developed in Ruby on Rails using the Teamwork API as a source."
       },
-      "cta": [
-        {
-          "link": "",
-          "repo": ""
-        }
-      ]
+      "cta": []
     },
     {
       "title": {
@@ -484,16 +419,14 @@
         "https://i.imgur.com/mqv1NY0.png",
         "https://i.imgur.com/p065Zl5.png"
       ],
-      "width": 708,
-      "height": 411,
       "description": {
         "es": "Aplicación en proceso de desarrollo, basada en Next commerce implementa productos, ingredientes, usuarios y ordenes con el fin de permitir una experiencia de compra completa, PWA y responsiva para funcionar en todos los dispositivos. Implementa Google Maps API y web-sockets con el fin de controlar el proceso de envío desde una interfaz para el repartidor conectada a la interfaz del cliente. La parte de administración permite llevar control del inventario de productos e ingredientes.",
-        "en": "..."
+        "en": "Application in development process, based on Next commerce implements products, ingredients, users and orders in order to allow a complete, PWA and responsive shopping experience to work on all devices. Implements Google Maps API and web-sockets in order to control the shipping process from a delivery interface connected to the customer interface. The admin part allows us to control the inventory of products and ingredients."
       },
       "cta": [
         {
-          "link": "",
-          "repo": ""
+          "link": "https://food.nacho.software/",
+          "label": "Website"
         }
       ]
     }

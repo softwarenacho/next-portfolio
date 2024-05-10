@@ -1,5 +1,5 @@
+import Image from 'next/image';
 import { Suspense, useEffect, useState } from 'react';
-import { Gallery } from 'react-grid-gallery';
 import styles from '../_styles/Projects.module.scss';
 
 type Languages = {
@@ -12,11 +12,9 @@ type Project = {
   images: string[];
   title: Languages;
   description: Languages;
-  width: number;
-  height: number;
   cta: {
     link: string;
-    repo: string;
+    label: string;
   }[];
 };
 
@@ -32,27 +30,33 @@ const Projects = ({ lang }: { lang: string }) => {
   useEffect(() => {
     if (projects.projects) {
       const galleryImages = projects.projects.map((project: Project) => {
-        return {
-          src: project.images[0],
-          width: project.width,
-          height: project.height,
-          customOverlay: (
-            <div className='custom-overlay'>
-              <h2>{project.title[lang]}</h2>
-              {/* <span>{project.description[lang]}</span>
-              <span>
-                {project.cta.map((cta) => (
-                  <div key={project.title[lang]}>
-                    {cta.link && <a href={cta.link}>Link</a>}
-                    {cta.repo && <a href={cta.repo}>Repo</a>}
-                  </div>
-                ))}
-              </span> */}
+        return (
+          <div className={styles.projectCard} key={project.title[lang]}>
+            <Image
+              src={project.images[0]}
+              width={400}
+              height={400}
+              alt={project.title[lang]}
+            />
+            <h2>{project.title[lang]}</h2>
+            <span className={styles.description}>
+              {project.description[lang]}
+            </span>
+            <div className={styles.links}>
+              {project.cta.map((cta) => (
+                <a
+                  key={project.title[lang]}
+                  href={cta.link}
+                  rel='nofollow'
+                  target='_blank'
+                >
+                  {cta.label}
+                </a>
+              ))}
             </div>
-          ),
-        };
+          </div>
+        );
       });
-      console.log('🚀 ~ galleryImages ~ galleryImages:', galleryImages);
       setImages(galleryImages);
     }
   }, [lang, projects.projects]);
@@ -70,14 +74,9 @@ const Projects = ({ lang }: { lang: string }) => {
       <Suspense fallback={<p>...</p>}>
         {projects.title && images && (
           <>
-            <h1># {projects.title[lang]}</h1>
-            <div className={styles.gallery}>
-              <Gallery
-                rowHeight={400}
-                enableImageSelection={false}
-                images={images}
-              />
-            </div>
+            <h1>#{projects.title[lang]}</h1>
+            <h3>{projects.subtitle[lang]}</h3>
+            <div className={styles.gallery}>{images}</div>
           </>
         )}
       </Suspense>

@@ -2,10 +2,10 @@ const Attirbutions = () => {
   return (
     <>
       <a
-        href='https://www.flaticon.com/free-icons/identity-card'
-        title='mexico united-kingdom code driving-license information icons'
+        href='https://www.flaticon.com/free-icons'
+        title='mexico united-kingdom code driving-license information icons github'
       >
-        All icons created by Freepik - Flaticon
+        All icons created by Freepik and Pixelperfect
       </a>
     </>
   );
