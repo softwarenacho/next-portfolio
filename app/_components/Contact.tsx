@@ -23,7 +23,11 @@ const Contact = ({ lang }: { lang: string }) => {
             width={400}
             height={400}
           />
-          <p>{'"First solve the problem, then write the code"'}</p>
+          <p>
+            {lang === 'es'
+              ? '"Primero resuelve  el problema. Luego escribe el código."'
+              : '"First solve the problem. Then write the code."'}
+          </p>
         </div>
         <div className={styles.actions}>
           <h1>{lang === 'es' ? '// Contacto' : '// Contact info'}</h1>

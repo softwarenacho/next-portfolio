@@ -1,13 +1,12 @@
 import Image from 'next/image';
-import { Dispatch, SetStateAction } from 'react';
 import styles from '../_styles/Header.module.scss';
 
 const Header = ({
   lang,
-  setLanguage,
+  changeLanguage,
 }: {
   lang: string;
-  setLanguage: Dispatch<SetStateAction<string>>;
+  changeLanguage: (lang: string) => void;
 }) => {
   const banner = (
     <pre>
@@ -45,13 +44,13 @@ const Header = ({
           />
         </a>
         {lang === 'es' && (
-          <button onClick={() => setLanguage('en')}>
+          <button onClick={() => changeLanguage('en')}>
             {lang}
             <Image src={'/icons/es.png'} alt='spanish' width={16} height={16} />
           </button>
         )}
         {lang === 'en' && (
-          <button onClick={() => setLanguage('es')}>
+          <button onClick={() => changeLanguage('es')}>
             {lang}
             <Image src={'/icons/en.png'} alt='english' width={16} height={16} />
           </button>

@@ -65,7 +65,7 @@ const About = ({ lang }: { lang: string }) => {
             priority
           />
           <Image
-            src='https://i.imgur.com/wHKc8XN.jpeg'
+            src='https://i.imgur.com/quOWh6K.jpeg'
             alt='Nacho Betancourt'
             width={200}
             height={200}
