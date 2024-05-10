@@ -1,7 +1,7 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { cookieLanguage, setCookieLanguage } from './_actions/language';
 import About from './_components/About';
 import Contact from './_components/Contact';
@@ -36,17 +36,19 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Header lang={language} changeLanguage={changeLanguage} />
-      <About lang={language} />
-      <Projects lang={language} setProject={setProject} />
-      <Contact lang={language} />
-      {project && (
-        <ProjectModal
-          lang={language}
-          project={project}
-          setProject={setProject}
-        />
-      )}
+      <Suspense fallback={<p>...</p>}>
+        <Header lang={language} changeLanguage={changeLanguage} />
+        <About lang={language} />
+        <Projects lang={language} setProject={setProject} />
+        <Contact lang={language} />
+        {project && (
+          <ProjectModal
+            lang={language}
+            project={project}
+            setProject={setProject}
+          />
+        )}
+      </Suspense>
     </main>
   );
 }
