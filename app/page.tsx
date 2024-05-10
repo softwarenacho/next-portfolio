@@ -6,11 +6,13 @@ import { cookieLanguage, setCookieLanguage } from './_actions/language';
 import About from './_components/About';
 import Contact from './_components/Contact';
 import Header from './_components/Header';
-import Projects from './_components/Projects';
+import ProjectModal from './_components/ProjectModal';
+import Projects, { Project } from './_components/Projects';
 import styles from './_styles/page.module.scss';
 
 export default function Home() {
   const [language, setLanguage] = useState<string>('es');
+  const [project, setProject] = useState<Project | null>(null);
   const searchParams = useSearchParams();
 
   const changeLanguage = (lang: string) => {
@@ -36,8 +38,15 @@ export default function Home() {
     <main className={styles.main}>
       <Header lang={language} changeLanguage={changeLanguage} />
       <About lang={language} />
-      <Projects lang={language} />
+      <Projects lang={language} setProject={setProject} />
       <Contact lang={language} />
+      {project && (
+        <ProjectModal
+          lang={language}
+          project={project}
+          setProject={setProject}
+        />
+      )}
     </main>
   );
 }

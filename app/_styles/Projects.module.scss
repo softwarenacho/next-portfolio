@@ -73,7 +73,7 @@
     background: v.$btn-blue;
     @include v.shadow;
     color: white;
-    border: 1px solid transparent;
+    border: 2.5px solid transparent;
     border-radius: 10px;
     &:first-child {
       background: v.$main-blue;

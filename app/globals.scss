@@ -31,20 +31,21 @@ h1 {
 }
 
 .image-gallery-image {
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 40vh !important;
+  max-width: 75vw;
+  border-radius: 25px;
+  margin-bottom: 2rem;
 }
 
 .image-gallery-thumbnail-image {
+  cursor: pointer;
   max-height: 4rem;
+  border-radius: 10px;
+  max-width: 100%;
   width: auto !important;
 }
 
 .image-gallery-svg {
   height: 40px !important;
   width: 20px !important;
-}
-
-.image-gallery {
-  max-width: 350px;
 }

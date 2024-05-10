@@ -1,0 +1,75 @@
+@use 'variables' as v;
+
+.container {
+  display: flex;
+  position: relative;
+  background: #00000080;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: v.$bg-blue;
+  border-radius: 10px;
+  padding: 2.5rem;
+  max-height: 95vh;
+  overflow: scroll;
+  @include v.shadow;
+  h2,
+  p {
+    margin: 2rem 0;
+    color: black;
+    line-height: 150%;
+    user-select: none;
+    max-height: 150px;
+    overflow: scroll;
+  }
+}
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  img {
+    width: auto;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  a {
+    padding: 1rem;
+    background: v.$btn-blue;
+    @include v.shadow;
+    color: white;
+    border: 2.5px solid transparent;
+    border-radius: 10px;
+    &:first-child {
+      background: v.$main-blue;
+    }
+    &:hover {
+      border: 2.5px solid black;
+      opacity: 0.75;
+    }
+  }
+}

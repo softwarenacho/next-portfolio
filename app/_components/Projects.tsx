@@ -1,14 +1,14 @@
 import Image from 'next/image';
-import { Suspense, useEffect, useState } from 'react';
+import { Dispatch, SetStateAction, Suspense, useEffect, useState } from 'react';
 import styles from '../_styles/Projects.module.scss';
 
-type Languages = {
+export type Languages = {
   [key: string]: string;
   es: string;
   en: string;
 };
 
-type Project = {
+export type Project = {
   images: string[];
   title: Languages;
   description: Languages;
@@ -18,12 +18,18 @@ type Project = {
   }[];
 };
 
-type Projects = {
+export type Projects = {
   title: Languages;
   projects: Project[];
 };
 
-const Projects = ({ lang }: { lang: string }) => {
+const Projects = ({
+  lang,
+  setProject,
+}: {
+  lang: string;
+  setProject: Dispatch<SetStateAction<Project | null>>;
+}) => {
   const [projects, setProjects] = useState<any>({});
   const [images, setImages] = useState<any>(null);
 
@@ -37,6 +43,7 @@ const Projects = ({ lang }: { lang: string }) => {
               width={400}
               height={400}
               alt={project.title[lang]}
+              onClick={() => setProject(project)}
             />
             <h2>{project.title[lang]}</h2>
             <span className={styles.description}>
@@ -59,7 +66,7 @@ const Projects = ({ lang }: { lang: string }) => {
       });
       setImages(galleryImages);
     }
-  }, [lang, projects.projects]);
+  }, [lang, projects.projects, setProject]);
 
   useEffect(() => {
     const getProjects = async () => {

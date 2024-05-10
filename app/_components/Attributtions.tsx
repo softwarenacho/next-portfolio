@@ -3,9 +3,9 @@ const Attirbutions = () => {
     <>
       <a
         href='https://www.flaticon.com/free-icons'
-        title='mexico united-kingdom code driving-license information icons github'
+        title='mexico united-kingdom code driving-license information close button icons github'
       >
-        All icons created by Freepik and Pixelperfect
+        All icons created by Freepik, Kemalmoe and Pixelperfect
       </a>
     </>
   );
