@@ -6,6 +6,59 @@
   "projects": [
     {
       "title": {
+        "es": "Pokemon Master Trainer",
+        "en": "Pokemon Master Trainer"
+      },
+      "images": [
+        "https://i.imgur.com/GC2fWpM.png",
+        "https://i.imgur.com/456eyLU.png",
+        "https://i.imgur.com/KkIpzM8.png",
+        "https://i.imgur.com/iZEoKax.png",
+        "https://i.imgur.com/YhzuBeR.png",
+        "https://i.imgur.com/IFlcUW3.png",
+        "https://i.imgur.com/DLD6TDw.png",
+        "https://i.imgur.com/1vsz17o.png"
+      ],
+      "width": 620,
+      "height": 620,
+      "description": {
+        "es": "Este es un proyecto personal que desarrollé con el objetivo de implementar y aprender las versiones más actuales de Next.js y React con Typescript, también fue la primera vez que implementé una base de datos no relacional con MongoDB, el manejo de matrices de 2 dimensiones para la generación de todos los recursos gráficos fue un reto muy interesante, tambien el desarrollo de los controles y la unificación de cada una de las partes hasta lograr empezar un juego nuevo.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://master-trainer.nacho.software/",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "AIDA Dreams",
+        "en": "AIDA Dreams"
+      },
+      "images": [
+        "https://i.imgur.com/1CmfMGj.png",
+        "https://i.imgur.com/21aXhmQ.png",
+        "https://i.imgur.com/v1OMKls.png",
+        "https://i.imgur.com/FKyRZA5.png",
+        "https://i.imgur.com/0WhXP8D.png"
+      ],
+      "width": 708,
+      "height": 620,
+      "description": {
+        "es": "AIDA Dreams es una aplicación interna desarrollada con el objetivo de interpretar sueños luego de una plática con ChatGPT por medio de diferentes herramientas de OpenAI. Implementé web-sockets para lograr una comunicación multi canal desde un solo emitor",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
         "es": "Highlight & Ask",
         "en": "Highlight & Ask"
       },
@@ -35,7 +88,7 @@
         "en": "Forecaster Tool"
       },
       "images": [
-        "https://i.imgur.com/yTR5S54.png",
+        "https://i.imgur.com/oGgsxyC.png",
         "https://i.imgur.com/YjeCRlJ.jpeg",
         "https://i.imgur.com/Z5tBPp9.png"
       ],
@@ -71,6 +124,31 @@
         {
           "link": "https://project-fs.vercel.app",
           "repo": "https://github.com/softwarenacho/project-fs"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "SunPower",
+        "en": "SunPower"
+      },
+      "images": [
+        "https://i.imgur.com/yp1oIWJ.png",
+        "https://i.imgur.com/jmVXpjf.png",
+        "https://i.imgur.com/0kpzd0d.png",
+        "https://i.imgur.com/wG8Anqi.png",
+        "https://i.imgur.com/ON9EQ6m.png"
+      ],
+      "width": 708,
+      "height": 620,
+      "description": {
+        "es": "Para SunPower trabajé en el proyecto de Eddie que maneja las cotizaciones que le realizan los vendedores al cliente, mi trabajo principal fue con Next.js y React, lo más interesante de este proyecto fue aprender a manejar los formatos de archivo de Autocad y la creación de PDFs orientados al cliente final.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
         }
       ]
     },
@@ -388,6 +466,28 @@
       "height": 687,
       "description": {
         "es": "Clearview es un proyecto enfocado en mejorar el proceso de trabajo de los desarrolladores de software con clientes, muestra diferentes secciones que permitirán al cliente tener la confianza de que su proyecto está avanzando y siendo trabajado día, mostrando el status y objetivos del mismo, así como las horas trabajadas por cada desarrollador, está desarrollado en Ruby on Rails usando la API de Teamwork como fuente.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Volovanes Fitness",
+        "en": "Volovanes Fitness"
+      },
+      "images": [
+        "https://i.imgur.com/mqv1NY0.png",
+        "https://i.imgur.com/p065Zl5.png"
+      ],
+      "width": 708,
+      "height": 411,
+      "description": {
+        "es": "Aplicación en proceso de desarrollo, basada en Next commerce implementa productos, ingredientes, usuarios y ordenes con el fin de permitir una experiencia de compra completa, PWA y responsiva para funcionar en todos los dispositivos. Implementa Google Maps API y web-sockets con el fin de controlar el proceso de envío desde una interfaz para el repartidor conectada a la interfaz del cliente. La parte de administración permite llevar control del inventario de productos e ingredientes.",
         "en": "..."
       },
       "cta": [
