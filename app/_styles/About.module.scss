@@ -43,3 +43,20 @@
   line-height: 150%;
   letter-spacing: 2px;
 }
+
+.images {
+  .placeholder {
+    display: flex;
+  }
+  .profile {
+    display: none;
+  }
+  &:hover {
+    .placeholder {
+      display: none;
+    }
+    .profile {
+      display: flex;
+    }
+  }
+}

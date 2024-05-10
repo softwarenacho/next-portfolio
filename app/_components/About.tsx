@@ -55,12 +55,22 @@ const About = ({ lang }: { lang: string }) => {
             </p>
           </div>
         )}
-        <Image
-          src='https://i.imgur.com/yzunC8n.jpeg'
-          alt='The Great Wave off Kanagawa'
-          width={200}
-          height={200}
-        />
+        <div className={styles.images}>
+          <Image
+            src='https://i.imgur.com/yzunC8n.jpeg'
+            alt='The Great Wave off Kanagawa'
+            width={200}
+            height={200}
+            className={styles.placeholder}
+          />
+          <Image
+            src='https://i.imgur.com/wHKc8XN.jpeg'
+            alt='Nacho Betancourt'
+            width={200}
+            height={200}
+            className={styles.profile}
+          />
+        </div>
       </Suspense>
     </section>
   );
