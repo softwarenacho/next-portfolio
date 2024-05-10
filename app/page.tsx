@@ -2,7 +2,7 @@
 
 import { Suspense } from 'react';
 import Page from './_components/Page';
-import styles from './_styles/Page.module.scss';
+import styles from './_styles/PageInitial.module.scss';
 
 export default function Home() {
   return (

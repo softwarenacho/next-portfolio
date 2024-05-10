@@ -1,12 +1,11 @@
+import { useSearchParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import { cookieLanguage, setCookieLanguage } from '../_actions/language';
 import About from './About';
 import Contact from './Contact';
 import Header from './Header';
 import ProjectModal from './ProjectModal';
 import Projects, { Project } from './Projects';
-
-import { useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import { cookieLanguage, setCookieLanguage } from '../_actions/language';
 
 const Page = () => {
   const [language, setLanguage] = useState<string>('es');
