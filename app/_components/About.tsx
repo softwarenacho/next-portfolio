@@ -62,6 +62,7 @@ const About = ({ lang }: { lang: string }) => {
             width={200}
             height={200}
             className={styles.placeholder}
+            priority
           />
           <Image
             src='https://i.imgur.com/wHKc8XN.jpeg'

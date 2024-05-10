@@ -43,9 +43,9 @@ const Projects = ({ lang }: { lang: string }) => {
               {project.description[lang]}
             </span>
             <div className={styles.links}>
-              {project.cta.map((cta) => (
+              {project.cta.map((cta, index) => (
                 <a
-                  key={project.title[lang]}
+                  key={`links-${project.title[lang]}-${index}`}
                   href={cta.link}
                   rel='nofollow'
                   target='_blank'
