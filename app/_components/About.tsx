@@ -1,13 +1,23 @@
 import Image from 'next/image';
-import { Suspense } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import styles from '../_styles/About.module.scss';
 
-const About = ({ lang, texts }: { lang: string; texts: any }) => {
+const About = ({ lang }: { lang: string }) => {
+  const [texts, setTexts] = useState<any>({});
+
+  useEffect(() => {
+    const getTexts = async () => {
+      const Texts = await import('../utils/about.json');
+      setTexts(Texts);
+    };
+    getTexts();
+  }, []);
+
   return (
     <section className={styles.about}>
       <Suspense fallback={<p>...</p>}>
         {texts.about && (
-          <div className={styles.description}>
+          <div className={styles.description} id='about'>
             <h1>{texts.about?.title[lang]}</h1>
             <p>
               {texts.about?.description?.p0[lang]}

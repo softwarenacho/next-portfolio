@@ -1,0 +1,401 @@
+{
+  "title": {
+    "es": "Proyectos",
+    "en": "Projects"
+  },
+  "projects": [
+    {
+      "title": {
+        "es": "Highlight & Ask",
+        "en": "Highlight & Ask"
+      },
+      "images": [
+        "https://i.imgur.com/qMYAqjl.png",
+        "https://i.imgur.com/ZzBMTo5.png",
+        "https://i.imgur.com/0Q2vTRM.png",
+        "https://i.imgur.com/HxbBf01.png",
+        "https://i.imgur.com/mmKlgXL.png"
+      ],
+      "width": 708,
+      "height": 620,
+      "description": {
+        "es": "Esta aplicación fue una prueba de concepto realizada con el objetivo de implementar comunicación con ChatGPT y Whisper de OpenAI para convertir un video en texto y de este extraer la información relevante en una serie de puntos y un resumen del contenido, se implementó tambien un chat que permite hacer preguntas acerca del contenido del video.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Forecaster Tool",
+        "en": "Forecaster Tool"
+      },
+      "images": [
+        "https://i.imgur.com/yTR5S54.png",
+        "https://i.imgur.com/YjeCRlJ.jpeg",
+        "https://i.imgur.com/Z5tBPp9.png"
+      ],
+      "width": 708,
+      "height": 410,
+      "description": {
+        "es": "Esta aplicación fue desarrollado como un proyecto interno de Wizeline con el objetivo de predecir los ingresos por salario de los desarrolladores con un mes o dos de anticipación, esta herramienta permite al equipo de finanzas llevar un mejor control de los ingresos esperados por cada cliente y unidad de negocio. Implementa conexiones a Salesforce donde se obtiene y condensa la información a mostrar en tablas que hacen un uso avanzado de filtros para su fácil manipulación",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Fantasy Football Masters",
+        "en": "Fantasy Football Masters"
+      },
+      "images": [
+        "https://i.imgur.com/f7uSFLT.png",
+        "https://i.imgur.com/bRQGKGW.png"
+      ],
+      "width": 986,
+      "height": 685,
+      "description": {
+        "es": "Fantasy Football Masters fue mi proyecto final del bootcamp intensivo de programación, utilizando la base de datos de EA de los juegos de Fifa se creó una base de datos con la cual los usuarios pueden armar sus propios equipos con un presupuesto inicial y correr simulaciones de partidos contra sus amigos para ganar más dinero, la simulación de los partidos se creo con un algoritmo de más de 1mil líneas de código que itera más de 500 veces por partido y genera cada movimiento del juego considerando las habilidad, la posición en el campo y otras muchas variables.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://project-fs.vercel.app",
+          "repo": "https://github.com/softwarenacho/project-fs"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "WSJ Conferences",
+        "en": "WSJ Conferences"
+      },
+      "images": [
+        "https://i.imgur.com/BwJ1UtU.png",
+        "https://i.imgur.com/7F9Bscg.png",
+        "https://i.imgur.com/HOJn6V9.png",
+        "https://i.imgur.com/ZNV55Mb.png",
+        "https://i.imgur.com/e2hF5ZP.png",
+        "https://i.imgur.com/y9Bcruj.png",
+        "https://i.imgur.com/8ZRCgLR.png"
+      ],
+      "width": 708,
+      "height": 402,
+      "description": {
+        "es": "Para DowJones he trabajado en los sitios de conferencias y eventos desarrollando diferentes componentes dentro de una libreria, el desarrollo principal consiste en mantener esta libreria que es compartida por múltiples proyectos, la base es un CRM en Wordpress y los componentes son desarrollados con React",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://globalfood.wsj.com/",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Coleccionista",
+        "en": "Collector"
+      },
+      "images": [
+        "https://i.imgur.com/ugncrYq.png",
+        "https://i.imgur.com/k5VGUgM.png"
+      ],
+      "width": 710,
+      "height": 811,
+      "description": {
+        "es": "Ésta una aplicación web que desarrollé como hobby con mi hijo, para explicarle algunos conceptos básicos de la programación web, con la euforía del mundial de futbol y la necesidad de intercambiar barajitas para llenar el álbum. Usando los recursos mínimos para su uso con datos móviles al intercambiar en Bellas Artes y ver de manera rápida nuestras repetidas usando filtros y actualizar en tiempo real las que conseguiamos, todo el procesamiento es invisible para el usuario final ya que guarda usando una API propia, no necesita iniciar sesión.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://softwarenacho.github.io/collector",
+          "repo": "https://github.com/softwarenacho/collector"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Rappi",
+        "en": "Rappi"
+      },
+      "images": [
+        "https://i.imgur.com/VQGSxP7.png",
+        "https://i.imgur.com/rYjzKbS.png",
+        "https://i.imgur.com/GpBcjjB.png",
+        "https://i.imgur.com/pX7Gfha.png",
+        "https://i.imgur.com/Q8thxD2.png"
+      ],
+      "width": 658,
+      "height": 402,
+      "description": {
+        "es": "Mi trabajo principal fue en el desarrollo del sistema de micro-frontends con React que controla las secciones y busqueda de productos, permite a la aplicación lograr cargar diferentes repositorios de trabajo para cada uno de los principales componentes, que entre sí se nutren de una libreria de componentes en Storybook. Desarrollé una cobertura de 80% en las pruebas que antes no existía, el desarrollo responsivo y la optimización del rendimiento de la página.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://www.rappi.com.mx",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Subject / Emily",
+        "en": "Subject / Emily"
+      },
+      "images": [
+        "https://i.imgur.com/D4g4zAe.png",
+        "https://i.imgur.com/a6CNq5j.png",
+        "https://i.imgur.com/KlgBJ6p.png",
+        "https://i.imgur.com/ySLLdGr.png"
+      ],
+      "width": 496,
+      "height": 724,
+      "description": {
+        "es": "Ésta una aplicación web que desarrollé como hobby con mi hijo, para explicarle algunos conceptos básicos de la programación web, con la euforía del mundial de futbol y la necesidad de intercambiar barajitas para llenar el álbum. Usando los recursos mínimos para su uso con datos móviles al intercambiar en Bellas Artes y ver de manera rápida nuestras repetidas usando filtros y actualizar en tiempo real las que conseguiamos, todo el procesamiento es invisible para el usuario final ya que guarda usando una API propia, no necesita iniciar sesión.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://softwarenacho.github.io/collector",
+          "repo": "https://github.com/softwarenacho/collector"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Karvi",
+        "en": "Karvi"
+      },
+      "images": [
+        "https://i.imgur.com/clDgd4U.png",
+        "https://i.imgur.com/VtRQgvT.png",
+        "https://i.imgur.com/zAs7gIP.png",
+        "https://i.imgur.com/0kV6g9w.png",
+        "https://i.imgur.com/4szRnu5.png",
+        ""
+      ],
+      "width": 708,
+      "height": 410,
+      "description": {
+        "es": "En este proyecto hicimos el rediseño visual de la aplicación enfocado en hacerla responsiva para tener más mercado en usuarios móviles, el principal logro en este proyecto fue reducir los tiempos de carga de aplicación de más de 10 segundos a 2 o 3. El CRM para el blog fue optimizado para el uso de los usuarios internos.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://www.karvi.com.ar",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Trivia",
+        "en": "Trivia"
+      },
+      "images": [
+        "https://i.imgur.com/Q75W0M4.png",
+        "https://i.imgur.com/inakhK6.png"
+      ],
+      "width": 1451,
+      "height": 974,
+      "description": {
+        "es": "Demostración de consumo de API's externas usando un mínimo de recursos, usando JS se obtiene una base de preguntas en diferentes categorías para después contestarlas en una interfaz simple e intuitiva pensada en una fácil experiencia de usuario con el objetivo de conectarla por medio de dispositivos como Chromecast a televisiones, así como su uso como una aplicación web progresiva lo que me permite guardar bases de preguntas como favoritas para su uso offline, desarrollo en proceso con Angular.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://softwarenacho.github.io/trivia",
+          "repo": "https://github.com/softwarenacho/trivia"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "CodeaProposals",
+        "en": "CodeaProposals"
+      },
+      "images": [
+        "https://i.imgur.com/ZNDUXKe.png",
+        "https://i.imgur.com/xXCQ3o6.png"
+      ],
+      "width": 1195,
+      "height": 628,
+      "description": {
+        "es": "Proyecto de propuestas que integra vía twitter la oportunidad de sugerir y agregar a las celebridades o artistas favoritos a una base de datos que los cuenta como votos para la generación de listas de invitados en diferentes eventos,este servicio se utilizó como parte de talleres en TagCDMX, CampusParty y para CódigoX iniciativa de la presidencia de la Republica, enseñando a los asistentes a desarrollar a una aplicación cliente donde mandan propuestas a esta.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "https://codea-codigox.herokuapp.com/proposals",
+          "repo": "https://github.com/softwarenacho/codeatag"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Locomotion / Codea",
+        "en": "Locomotion / Codea"
+      },
+      "images": [
+        "https://i.imgur.com/OGoRr8V.png",
+        "https://i.imgur.com/rt3IDxI.png",
+        "https://i.imgur.com/e2fuLRw.png",
+        "https://i.imgur.com/t0CRYFd.png"
+      ],
+      "width": 1272,
+      "height": 696,
+      "description": {
+        "es": "Múltiples funciones nuevas para la plataforma de cursos de {CodeaCamp}, en las imágenes se aprecia primero el sistema de reportes diarios que evalúa a los alumnos en cuanto a sus condiciones de trabajo, horarios de entrada y de salida, etc. El segundo es el sistema de seguimiento a las actividades de los alumnos, el cual cuenta con logs automatizados y manuales que nos ayudan a medir el desempeño y hacer métricas con el objetivo de mejorar el servicio de la escuela. Diseño y desarrollo de páginas estáticas para promociones de marketing integrando efectos de CSS como el efecto parallax y fondos animados con video, análisis y control de objetivos y campañas de marketing en Facebook, Twitter y Google, integración total del sistema CRM de Zoho con nuestra plataforma de trabajo, desarrollando los métodos que permiten la comunicación constante de sistemas por medio de servicios API.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "CodeaSpots",
+        "en": "CodeaSpots"
+      },
+      "images": [
+        "https://i.imgur.com/vlKTIAf.png",
+        "https://i.imgur.com/6hyQBQS.png"
+      ],
+      "width": 1272,
+      "height": 696,
+      "description": {
+        "es": "Mi primera aplicación independiente para {CodeaCamp}, sistema de distribución de lugares que utilizando un microservicio, que también desarrollé, que se comunica con la plataforma de estudio para obtener los alumnos inscritos en la escuela, permitiendo enlistarlos y por medio de objetos arrastrables añadirlo dinámicamente a sus asientos, considerando su horario de estudio, aplicación de uso interno, en la primera foto se puede ver el proceso de diseño y en la segunda el resultado final.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "MDMA / Future Game",
+        "en": "MDMA / Future Game"
+      },
+      "images": [
+        "https://i.imgur.com/HafNJ1X.png",
+        "https://i.imgur.com/tZe5lpN.png",
+        "https://i.imgur.com/jdjpBfb.png",
+        "https://i.imgur.com/zxSrtRv.png"
+      ],
+      "width": 772,
+      "height": 983,
+      "description": {
+        "es": "Página de contacto para cliente, incluye conexión a Facebook para recibir Like o compartir la página. Página web de presentación y contacto para cliente, cubre la necesidad de una productora músical de tener presencia web, información relevante, también logra recibir mensajes y demos a través de la página, así como compartir los últimos lanzamientos con la posibilidad de reproducirlos directamente sobre la aplicación.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "iVoy",
+        "en": "iVoy"
+      },
+      "images": [
+        "https://i.imgur.com/jA1cYma.png",
+        "https://i.imgur.com/xM52gzF.png",
+        "https://i.imgur.com/HG9wAf0.png",
+        "https://i.imgur.com/JCXoeSp.png",
+        "https://i.imgur.com/DDQSuMG.png"
+      ],
+      "width": 608,
+      "height": 307,
+      "description": {
+        "es": "Estuve a cargo del desarrollo de una remodelación visual de la plataforma para clientes de iVoy donde el enfoque principal fue su uso desde dispositivos moviles con responsividad para diversas plataformas desde celulares con pantalla pequeña hasta tablets y iPads, se mejoro también el flujo de la aplicación para funcionar en sólo 2 pasos en lugar de los anteriores 4. El servicio de busqueda de paquetes lo desarrollé con el objetivo de ayudar a la gente de almacen a escanear desde una computadora o celular el código QR o de barras de un paquete usando la camara de la misma, haciendo en el momento una conexión con los servidores que les permite saber la información completa del mismo, permitiendo también organizar por órden. Haciendo uso del API de google maps se realizó un mapa que muestra en tiempo real los paquetes con fácil identificación de color para sus diferentes estados, permitiendo también generar órdenes con los mismos seleccionando directamente en el mapa, lo que permite a los supervisores crear de manera más optima las rutas para los motociclistas. El servicio de zonas de alta demanda permite establecer zonas con precios preferentes para los mensajeros, permitiendo crear poligonos en el mapa, establecer los días y horarios aplicables a los mismos.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "OliNacho",
+        "en": "OliNacho"
+      },
+      "images": [
+        "https://i.imgur.com/nKpVSr0.png",
+        "https://i.imgur.com/yXTuBxB.png"
+      ],
+      "width": 1155,
+      "height": 682,
+      "description": {
+        "es": "Aplicación de uso personal que simula una red social con un número limitado de miembros, lo que permite una comunicación exclusiva entre padres e hijos, permite compartir textos, subir fotos o añadirlas de un link externo, compartir videos de youtube, reaccionar a los posts y comentar en los mismos, pero sobretodo brinda un espacio único y de confianza para fortalecer la comunicación.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Medvent",
+        "en": "Medvent"
+      },
+      "images": ["https://i.imgur.com/OVYgZEN.png"],
+      "width": 540,
+      "height": 263,
+      "description": {
+        "es": "Plataforma de venta en línea personalizada de productos farmaceuticos desarrollada de manera progresiva, lo que permite su uso como página web y como aplicación movil, así como uso de servicios offline para el cliente, incluye un panel de administración donde el administrador puede añadir productos y promociones, consultar las existencias y pedidos. El cliente puede seleccionar sus elementos en un carrito desde el es posible también realizar el pago gracias a la integración de Sr. Pago.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": "https://github.com/softwarenacho/medvent-web"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Clearview",
+        "en": "Clearview"
+      },
+      "images": ["https://i.imgur.com/2v8rg8W.png"],
+      "width": 1269,
+      "height": 687,
+      "description": {
+        "es": "Clearview es un proyecto enfocado en mejorar el proceso de trabajo de los desarrolladores de software con clientes, muestra diferentes secciones que permitirán al cliente tener la confianza de que su proyecto está avanzando y siendo trabajado día, mostrando el status y objetivos del mismo, así como las horas trabajadas por cada desarrollador, está desarrollado en Ruby on Rails usando la API de Teamwork como fuente.",
+        "en": "..."
+      },
+      "cta": [
+        {
+          "link": "",
+          "repo": ""
+        }
+      ]
+    }
+  ]
+}

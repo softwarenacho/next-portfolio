@@ -4,19 +4,11 @@ import { useEffect, useState } from 'react';
 import { cookieLanguage, setCookieLanguage } from './_actions/language';
 import About from './_components/About';
 import Header from './_components/Header';
+import Projects from './_components/Projects';
 import styles from './_styles/page.module.scss';
 
 export default function Home() {
   const [language, setLanguage] = useState<string>('es');
-  const [texts, setTexts] = useState<any>({});
-
-  useEffect(() => {
-    const getTexts = async () => {
-      const Texts = await import('./utils/languages.json');
-      setTexts(Texts);
-    };
-    getTexts();
-  }, []);
 
   useEffect(() => {
     const setLng = async () => {
@@ -30,7 +22,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header lang={language} setLanguage={setLanguage} />
-      <About lang={language} texts={texts} />
+      <About lang={language} />
+      <Projects lang={language} />
     </main>
   );
 }
