@@ -40,18 +40,20 @@ const ProjectModal = ({
           showFullscreenButton={false}
         />
         <p>{project.description[lang]}</p>
-        <div className={styles.links}>
-          {project.cta.map((cta, index) => (
-            <a
-              key={`links-${project.title[lang]}-${index}`}
-              href={cta.link}
-              rel='nofollow'
-              target='_blank'
-            >
-              {cta.label}
-            </a>
-          ))}
-        </div>
+        {!!project.cta.length && (
+          <div className={styles.links}>
+            {project.cta.map((cta, index) => (
+              <a
+                key={`links-${project.title[lang]}-${index}`}
+                href={cta.link}
+                rel='nofollow'
+                target='_blank'
+              >
+                {cta.label}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </article>
   );
