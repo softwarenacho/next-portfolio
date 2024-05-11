@@ -11,6 +11,7 @@
     gap: 4rem;
   }
   h1 {
+    text-align: left;
     &:hover {
       @include v.shadow;
     }
