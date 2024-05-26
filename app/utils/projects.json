@@ -31,6 +31,10 @@
         {
           "link": "https://master-trainer.nacho.software",
           "label": "Play"
+        },
+        {
+          "link": "https://github.com/softwarenacho/pkm-mt",
+          "label": "Github"
         }
       ]
     },
@@ -59,24 +63,6 @@
     },
     {
       "title": {
-        "es": "Highlight & Ask",
-        "en": "Highlight & Ask"
-      },
-      "images": [
-        "https://i.imgur.com/qMYAqjl.png",
-        "https://i.imgur.com/ZzBMTo5.png",
-        "https://i.imgur.com/0Q2vTRM.png",
-        "https://i.imgur.com/HxbBf01.png",
-        "https://i.imgur.com/mmKlgXL.png"
-      ],
-      "description": {
-        "es": "Esta aplicación fue una prueba de concepto realizada con el objetivo de implementar comunicación con ChatGPT y Whisper de OpenAI para convertir un video en texto y de este extraer la información relevante en una serie de puntos y un resumen del contenido, se implementó tambien un chat que permite hacer preguntas acerca del contenido del video.",
-        "en": "This app was a proof of concept developed with the objective of implementing communication with ChatGPT and Whisper from OpenAI to convert a video into text and from this extract the relevant information in a series of points and a summary of the content, a chat was also implemented that allows you to ask questions about the content of the video."
-      },
-      "cta": []
-    },
-    {
-      "title": {
         "es": "Snake Game",
         "en": "Snake Game"
       },
@@ -95,8 +81,30 @@
         {
           "link": "https://snake.nacho.software",
           "label": "Play"
+        },
+        {
+          "link": "https://github.com/softwarenacho/snake-game",
+          "label": "Github"
         }
       ]
+    },
+    {
+      "title": {
+        "es": "Highlight & Ask",
+        "en": "Highlight & Ask"
+      },
+      "images": [
+        "https://i.imgur.com/qMYAqjl.png",
+        "https://i.imgur.com/ZzBMTo5.png",
+        "https://i.imgur.com/0Q2vTRM.png",
+        "https://i.imgur.com/HxbBf01.png",
+        "https://i.imgur.com/mmKlgXL.png"
+      ],
+      "description": {
+        "es": "Esta aplicación fue una prueba de concepto realizada con el objetivo de implementar comunicación con ChatGPT y Whisper de OpenAI para convertir un video en texto y de este extraer la información relevante en una serie de puntos y un resumen del contenido, se implementó tambien un chat que permite hacer preguntas acerca del contenido del video.",
+        "en": "This app was a proof of concept developed with the objective of implementing communication with ChatGPT and Whisper from OpenAI to convert a video into text and from this extract the relevant information in a series of points and a summary of the content, a chat was also implemented that allows you to ask questions about the content of the video."
+      },
+      "cta": []
     },
     {
       "title": {
