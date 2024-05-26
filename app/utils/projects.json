@@ -30,7 +30,7 @@
       "cta": [
         {
           "link": "https://master-trainer.nacho.software",
-          "label": "Website"
+          "label": "Play"
         }
       ]
     },
@@ -74,6 +74,29 @@
         "en": "This app was a proof of concept developed with the objective of implementing communication with ChatGPT and Whisper from OpenAI to convert a video into text and from this extract the relevant information in a series of points and a summary of the content, a chat was also implemented that allows you to ask questions about the content of the video."
       },
       "cta": []
+    },
+    {
+      "title": {
+        "es": "Snake Game",
+        "en": "Snake Game"
+      },
+      "images": [
+        "https://i.imgur.com/uZzYlZ1.png",
+        "https://i.imgur.com/4GNCdMg.png",
+        "https://i.imgur.com/z0nCT9A.png",
+        "https://i.imgur.com/ghLKCKy.png",
+        "https://i.imgur.com/wqHet4G.png"
+      ],
+      "description": {
+        "es": "El juego retro Snake implementado con TypeScript. Cuenta con un área donde la serpiente se mueve, acumula puntos y crece. El juego incluye funciones de pausa, reanudación y reinicio, además tiene efectos de sonido para eventos específicos usando un hook de react para reproducir sonido. El componente gestiona el estado de la posición, dirección, posición de los puntos, puntuación y estado del juego de la serpiente. Los controles del juego se manejan mediante teclado y eventos táctiles.",
+        "en": "This is a classic snake game implemented using TypeScript. It features a game area where the snake moves, collects points, and grows. The game includes pause, resume and reset functions,additionally it has sound effects for specific events using a custom useSound hook. The component manages state for the snake's position, direction, point position, score, and game status. Game controls are handled via keyboard and touch events"
+      },
+      "cta": [
+        {
+          "link": "https://snake.nacho.software",
+          "label": "Play"
+        }
+      ]
     },
     {
       "title": {
