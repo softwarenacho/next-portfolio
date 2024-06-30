@@ -10,6 +10,92 @@
   "projects": [
     {
       "title": {
+        "es": "Sushi Crush",
+        "en": "Sushi Crush"
+      },
+      "images": [
+        "https://i.imgur.com/nyFBoa2.png",
+        "https://i.imgur.com/7dVE6y1.png",
+        "https://i.imgur.com/Q96nbTe.png",
+        "https://i.imgur.com/kvB4tKc.png",
+        "https://i.imgur.com/Qe5QhOq.png",
+        "https://i.imgur.com/rAKTqgr.png"
+      ],
+      "description": {
+        "es": "En este proyectó desarrollé un juego tipo Candy Crush utilizando React y Next.js. El juego presenta dos modos atractivos: un Modo Infinito, donde los jugadores pueden seguir combinando piezas de sushi para alcanzar la puntuación más alta posible, y un Modo de Niveles, que desafía a los jugadores con niveles progresivamente más difíciles y objetivos únicos. El juego incluye animaciones para una experiencia de usuario fluida y visualmente atractiva. Lo más importante de este proyecto fue la gestión de estados y la implementación de mecánicas de juego interactivas.",
+        "en": "In this project I developed a delightful match-3 puzzle game using React and Next.js. The game features two engaging modes: an Infinite Mode, where players can keep matching sushi pieces to achieve the highest score possible, and a Levels Mode, which challenges players with progressively harder levels and unique goals. The game includes animations for a smooth and visually appealing user experience. It showcases my skills in modern web development, state management, and implementing interactive game mechanics."
+      },
+      "cta": [
+        {
+          "link": "https://sushi.nacho.software/",
+          "label": "Play"
+        },
+        {
+          "link": "https://github.com/softwarenacho/sushi-crush",
+          "label": "Github"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Olmec",
+        "en": "Olmec"
+      },
+      "images": [
+        "https://i.imgur.com/aJai4YU.png",
+        "https://i.imgur.com/98TPeTR.png",
+        "https://i.imgur.com/MnXIz61.png",
+        "https://i.imgur.com/gegEJc4.png",
+        "https://i.imgur.com/sw4C7tW.png",
+        "https://i.imgur.com/GeN7QUY.png",
+        "https://i.imgur.com/CvbBVk3.png",
+        "https://i.imgur.com/CDGCzIU.png",
+        "https://i.imgur.com/BnC8ySN.png"
+      ],
+      "description": {
+        "es": "Descubre Olmec, una versión reinventada del clásico juego de Serpientes y Escaleras, diseñada con tecnologías web modernas. Controla al guerrero Jaguar y navega por tableros dinámicos generados aleatoriamente que ofrecen un nuevo desafío cada vez. Utilizando Supabase para la funcionalidad multijugador en tiempo real, Olmec te permite competir sin problemas con amigos o jugadores en línea. El juego cuenta con animaciones fluidas y una interfaz intuitiva construida con React y TypeScript. Sumérgete en esta aventura inmersiva y corre hacia la cima de la pirámide.",
+        "en": "Experience Olmec, a reimagined version of the classic Snakes and Ladders game, designed with modern web technologies. Control the Jaguar warrior and navigate through dynamically generated boards that offer a new challenge every time. Utilizing Supabase for real-time multiplayer functionality, Olmec allows you to compete seamlessly with friends or players online. The game features smooth animations and an intuitive UI built with React and TypeScript. Dive into this immersive adventure and race to the top of the pyramid."
+      },
+      "cta": [
+        {
+          "link": "https://mines.nacho.software/",
+          "label": "Play"
+        },
+        {
+          "link": "https://github.com/softwarenacho/mines",
+          "label": "Github"
+        }
+      ]
+    },
+    {
+      "title": {
+        "es": "Mines",
+        "en": "Mines"
+      },
+      "images": [
+        "https://i.imgur.com/n2dUJKt.png",
+        "https://i.imgur.com/OUxDYqr.png",
+        "https://i.imgur.com/zXrudg7.png",
+        "https://i.imgur.com/eyKNTlB.png",
+        "https://i.imgur.com/uRIQKG3.png"
+      ],
+      "description": {
+        "es": "Este juego es un clon del clásico juego de Minesweeper de Windows, construido utilizando tecnologías web modernas como React, Next.js, TypeScript y módulos de Sass. Este proyecto se centra en ofrecer una experiencia de interacción de usuario fluida con un diseño simple y limpio, un nuevo diseño al juego original. El juego cuenta con generación dinámica del tablero, controles intuitivos para revelar celdas y colocar banderas, y actualizaciones en tiempo real del estado del juego, incluyendo un temporizador y un contador de minas. Ya seas un fanático de Minesweeper desde hace mucho tiempo o nuevo en el juego, encontrarás esta versión atractiva y fácil de jugar.",
+        "en": "This is  a clone of the classic Windows Minesweeper game, built using modern web technologies such as React, Next.js, TypeScript, and Sass modules. This project focuses on providing a seamless user interaction experience with a simple and clean design, with a modern design for the original game. The game features dynamic board generation, intuitive controls for revealing cells and placing flags, and real-time game status updates, including a timer and mine counter. Whether you're a long-time Minesweeper fan or new to the game, you'll find this version engaging and easy to play."
+      },
+      "cta": [
+        {
+          "link": "https://mines.nacho.software/",
+          "label": "Play"
+        },
+        {
+          "link": "https://github.com/softwarenacho/mines",
+          "label": "Github"
+        }
+      ]
+    },
+    {
+      "title": {
         "es": "Pokemon Master Trainer",
         "en": "Pokemon Master Trainer"
       },
