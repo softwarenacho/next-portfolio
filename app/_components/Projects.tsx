@@ -1,76 +1,27 @@
 import Image from 'next/image';
-import { Dispatch, SetStateAction, Suspense, useEffect, useState } from 'react';
+import { Suspense } from 'react';
 import styles from '../_styles/Projects.module.scss';
-
-export type Languages = {
-  [key: string]: string;
-  es: string;
-  en: string;
-};
-
-export type Project = {
-  images: string[];
-  title: Languages;
-  tag: string;
-  description: Languages;
-  cta: {
-    link: string;
-    label: string;
-  }[];
-};
-
-export type Projects = {
-  title: Languages;
-  projects: Project[];
-};
+import { Project, ProjectsInterface } from './Page';
 
 const Projects = ({
   lang,
   setProject,
+  handleMouseEnter,
+  handleFilterChange,
+  currentImages,
+  projects,
+  filter,
+  filteredProjects,
 }: {
   lang: string;
-  setProject: Dispatch<SetStateAction<Project | null>>;
+  setProject: (project: Project, index: number) => void;
+  handleMouseEnter: (index: number, project: Project) => void;
+  handleFilterChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
+  currentImages: string[];
+  projects: ProjectsInterface;
+  filter: string;
+  filteredProjects: Project[];
 }) => {
-  const [projects, setProjects] = useState<Projects | null>(null);
-  const [currentImages, setCurrentImages] = useState<string[]>([]);
-  const [filter, setFilter] = useState<string>('All');
-
-  useEffect(() => {
-    const getProjects = async () => {
-      const Projects = await import('../utils/projects.json');
-      setProjects(Projects as Projects);
-      if (Projects) {
-        const initialImages = Projects.projects.map((project: Project) =>
-          randomImage(project),
-        );
-        setCurrentImages(initialImages);
-      }
-    };
-    getProjects();
-  }, []);
-
-  const randomImage = (project: Project) => {
-    const randomIndex = Math.floor(Math.random() * project.images.length);
-    return project.images[randomIndex];
-  };
-
-  const handleMouseEnter = (index: number, project: Project) => {
-    const newImage = randomImage(project);
-    setCurrentImages((prevImages) => {
-      const updatedImages = [...prevImages];
-      updatedImages[index] = newImage;
-      return updatedImages;
-    });
-  };
-
-  const handleFilterChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setFilter(event.target.value);
-  };
-
-  const filteredProjects = projects?.projects.filter((project) =>
-    filter === 'All' ? true : project.tag === filter,
-  );
-
   return (
     <section id='projects' className={styles.projects}>
       <Suspense fallback={<p>...</p>}>
@@ -94,7 +45,7 @@ const Projects = ({
                 <div className={styles.projectCard} key={project.title[lang]}>
                   <div
                     className={styles.imageContainer}
-                    onClick={() => setProject(project)}
+                    onClick={() => setProject(project, index)}
                     onMouseEnter={() => handleMouseEnter(index, project)}
                     style={{
                       backgroundImage: `url(${currentImages[index]})`,
