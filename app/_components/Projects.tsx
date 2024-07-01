@@ -11,6 +11,7 @@ export type Languages = {
 export type Project = {
   images: string[];
   title: Languages;
+  tag: string;
   description: Languages;
   cta: {
     link: string;
@@ -30,60 +31,111 @@ const Projects = ({
   lang: string;
   setProject: Dispatch<SetStateAction<Project | null>>;
 }) => {
-  const [projects, setProjects] = useState<any>({});
-  const [images, setImages] = useState<any>(null);
-
-  useEffect(() => {
-    if (projects.projects) {
-      const galleryImages = projects.projects.map((project: Project) => {
-        return (
-          <div className={styles.projectCard} key={project.title[lang]}>
-            <Image
-              src={project.images[0]}
-              width={400}
-              height={400}
-              alt={project.title[lang]}
-              onClick={() => setProject(project)}
-            />
-            <h2>{project.title[lang]}</h2>
-            <span className={styles.description}>
-              {project.description[lang]}
-            </span>
-            <div className={styles.links}>
-              {project.cta.map((cta, index) => (
-                <a
-                  key={`links-${project.title[lang]}-${index}`}
-                  href={cta.link}
-                  rel='nofollow'
-                  target='_blank'
-                >
-                  {cta.label}
-                </a>
-              ))}
-            </div>
-          </div>
-        );
-      });
-      setImages(galleryImages);
-    }
-  }, [lang, projects.projects, setProject]);
+  const [projects, setProjects] = useState<Projects | null>(null);
+  const [currentImages, setCurrentImages] = useState<string[]>([]);
+  const [filter, setFilter] = useState<string>('All');
 
   useEffect(() => {
     const getProjects = async () => {
       const Projects = await import('../utils/projects.json');
       setProjects(Projects as Projects);
+      if (Projects) {
+        const initialImages = Projects.projects.map((project: Project) =>
+          randomImage(project),
+        );
+        setCurrentImages(initialImages);
+      }
     };
     getProjects();
   }, []);
 
+  const randomImage = (project: Project) => {
+    const randomIndex = Math.floor(Math.random() * project.images.length);
+    return project.images[randomIndex];
+  };
+
+  const handleMouseEnter = (index: number, project: Project) => {
+    const newImage = randomImage(project);
+    setCurrentImages((prevImages) => {
+      const updatedImages = [...prevImages];
+      updatedImages[index] = newImage;
+      return updatedImages;
+    });
+  };
+
+  const handleFilterChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setFilter(event.target.value);
+  };
+
+  const filteredProjects = projects?.projects.filter((project) =>
+    filter === 'All' ? true : project.tag === filter,
+  );
+
   return (
     <section id='projects' className={styles.projects}>
       <Suspense fallback={<p>...</p>}>
-        {projects.title && images && (
+        {projects && (
           <>
-            <h1>#{projects.title[lang]}</h1>
-            <h3>{projects.subtitle[lang]}</h3>
-            <div className={styles.gallery}>{images}</div>
+            <h1>
+              #{projects.title[lang]}
+              <select
+                className={styles.filter}
+                onChange={handleFilterChange}
+                value={filter}
+              >
+                <option value='All'>All</option>
+                <option value='game'>Games</option>
+                <option value='personal'>Personal</option>
+                <option value='work'>Work</option>
+              </select>
+            </h1>
+            <div className={styles.gallery}>
+              {filteredProjects?.map((project, index) => (
+                <div className={styles.projectCard} key={project.title[lang]}>
+                  <div
+                    className={styles.imageContainer}
+                    onClick={() => setProject(project)}
+                    onMouseEnter={() => handleMouseEnter(index, project)}
+                    style={{
+                      backgroundImage: `url(${currentImages[index]})`,
+                      backgroundPosition: 'center',
+                      backgroundSize: 'cover',
+                      backgroundRepeat: 'no-repeat',
+                    }}
+                  >
+                    <Image
+                      src={project.images[0]}
+                      width={400}
+                      height={400}
+                      alt={project.title[lang]}
+                      className={styles.projectImage}
+                    />
+                  </div>
+                  <h2>{project.title[lang]}</h2>
+                  <span
+                    className={`${styles.description} ${
+                      project.cta.length > 0 ? '' : styles.longDescription
+                    }`}
+                  >
+                    {project.description[lang]}
+                  </span>
+                  {project.cta.length > 0 && (
+                    <div className={styles.links}>
+                      {project.cta.map((cta, index) => (
+                        <a
+                          key={`links-${project.title[lang]}-${index}`}
+                          href={cta.link}
+                          rel='nofollow'
+                          target='_blank'
+                        >
+                          {cta.label}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </>
         )}
       </Suspense>

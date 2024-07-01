@@ -13,6 +13,7 @@
         "es": "Sushi Crush",
         "en": "Sushi Crush"
       },
+      "tag": "game",
       "images": [
         "https://i.imgur.com/nyFBoa2.png",
         "https://i.imgur.com/7dVE6y1.png",
@@ -41,6 +42,7 @@
         "es": "Olmec",
         "en": "Olmec"
       },
+      "tag": "game",
       "images": [
         "https://i.imgur.com/aJai4YU.png",
         "https://i.imgur.com/98TPeTR.png",
@@ -58,11 +60,11 @@
       },
       "cta": [
         {
-          "link": "https://mines.nacho.software/",
+          "link": "https://olmec.nacho.software/",
           "label": "Play"
         },
         {
-          "link": "https://github.com/softwarenacho/mines",
+          "link": "https://github.com/softwarenacho/olmec",
           "label": "Github"
         }
       ]
@@ -72,6 +74,7 @@
         "es": "Mines",
         "en": "Mines"
       },
+      "tag": "game",
       "images": [
         "https://i.imgur.com/n2dUJKt.png",
         "https://i.imgur.com/OUxDYqr.png",
@@ -109,6 +112,7 @@
         "https://i.imgur.com/DLD6TDw.png",
         "https://i.imgur.com/1vsz17o.png"
       ],
+      "tag": "game",
       "description": {
         "es": "Este es un proyecto personal que desarrollé con el objetivo de implementar y aprender las versiones más actuales de Next.js y React con Typescript, también fue la primera vez que implementé una base de datos no relacional con MongoDB, el manejo de matrices de 2 dimensiones para la generación de todos los recursos gráficos, fue un reto muy interesante, tambien el desarrollo de los controles y la unificación de cada una de las partes hasta lograr empezar un juego nuevo.",
         "en": "This is a personal project that I developed with the goal of implementing and learning the most current versions of Next.js and React with Typescript, it was also the first time I implemented a non-relational database with MongoDB, handling 2-dimensional arrays for the generation of all the graphic resources, it was a very interesting challenge, also the development of the controls and the unification of each of the parts until we were able to start a new game."
@@ -136,6 +140,7 @@
         "https://i.imgur.com/FKyRZA5.png",
         "https://i.imgur.com/0WhXP8D.png"
       ],
+      "tag": "work",
       "description": {
         "es": "AIDA Dreams es una aplicación interna desarrollada con el objetivo de interpretar sueños luego de una plática con ChatGPT por medio de diferentes herramientas de OpenAI. Implementé web-sockets para lograr una comunicación multi canal desde un solo emitor.",
         "en": "AIDA Dreams is an internal application developed with the objective of interpreting dreams after a conversation with ChatGPT through different OpenAI tools. I implemented web-sockets to achieve multi-channel communication from a single emitter."
@@ -152,6 +157,7 @@
         "es": "Snake Game",
         "en": "Snake Game"
       },
+      "tag": "game",
       "images": [
         "https://i.imgur.com/uZzYlZ1.png",
         "https://i.imgur.com/4GNCdMg.png",
@@ -179,6 +185,7 @@
         "es": "Highlight & Ask",
         "en": "Highlight & Ask"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/qMYAqjl.png",
         "https://i.imgur.com/ZzBMTo5.png",
@@ -197,6 +204,7 @@
         "es": "Forecaster Tool",
         "en": "Forecaster Tool"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/oGgsxyC.png",
         "https://i.imgur.com/YjeCRlJ.jpeg",
@@ -217,6 +225,7 @@
         "https://i.imgur.com/f7uSFLT.png",
         "https://i.imgur.com/bRQGKGW.png"
       ],
+      "tag": "game",
       "description": {
         "es": "Fantasy Football Masters fue mi proyecto final del bootcamp intensivo de programación, utilizando la base de datos de EA de los juegos de FIFA se creó una nueva base de datos con la cual los usuarios pueden armar sus propios equipos con un presupuesto inicial y correr simulaciones de partidos contra sus amigos para ganar más dinero, la simulación de los partidos se creo con un algoritmo de más de 1mil líneas de código que itera más de 500 veces por partido y genera cada movimiento del juego considerando las habilidad, la posición en el campo y otras muchas variables.",
         "en": "Fantasy Football Masters was my final project of an intensive programming bootcamp, using EA's database of FIFA games, a new database was created with which users can build their own teams with an initial budget and run match simulations against your friends to win more money, the match simulation was created with an algorithm of more than 1 thousand lines of code that iterates more than 500 times per match and generates each movement of the game considering skills, position on the field and others many variables."
@@ -237,6 +246,7 @@
         "es": "SunPower",
         "en": "SunPower"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/yp1oIWJ.png",
         "https://i.imgur.com/jmVXpjf.png",
@@ -255,6 +265,7 @@
         "es": "WSJ Conferences",
         "en": "WSJ Conferences"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/BwJ1UtU.png",
         "https://i.imgur.com/7F9Bscg.png",
@@ -288,6 +299,7 @@
         "https://i.imgur.com/ugncrYq.png",
         "https://i.imgur.com/k5VGUgM.png"
       ],
+      "tag": "personal",
       "description": {
         "es": "Ésta una aplicación web que desarrollé como hobby con mi hijo, para explicarle algunos conceptos básicos de la programación web, con la euforía del mundial de futbol y la necesidad de intercambiar barajitas para llenar el álbum. Usando los recursos mínimos para su uso con datos móviles al intercambiar en Bellas Artes y ver de manera rápida nuestras repetidas usando filtros y actualizar en tiempo real las que conseguiamos, todo el procesamiento es invisible para el usuario final ya que guarda usando una API propia, no necesita iniciar sesión.",
         "en": "This is a web app that I developed as a hobby with the help of my son, to explain him some basic concepts of web programming, with the euphoria of the World Cup and the need to exchange cards to fill the album. Using the minimum resources for use with mobile data when exchanging in Bellas Artes (CDMX) and quickly seeing our repeated cards using filters and updating in real time the ones we got, all the processing is invisible to the end user since it saves using its own API, You don't need to log in."
@@ -308,6 +320,7 @@
         "es": "Rappi",
         "en": "Rappi"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/VQGSxP7.png",
         "https://i.imgur.com/rYjzKbS.png",
@@ -331,6 +344,7 @@
         "es": "Subject / Emily",
         "en": "Subject / Emily"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/a6CNq5j.png",
         "https://i.imgur.com/D4g4zAe.png",
@@ -353,6 +367,7 @@
         "es": "Karvi",
         "en": "Karvi"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/clDgd4U.png",
         "https://i.imgur.com/VtRQgvT.png",
@@ -377,6 +392,7 @@
         "es": "Trivia",
         "en": "Trivia"
       },
+      "tag": "game",
       "images": [
         "https://i.imgur.com/Q75W0M4.png",
         "https://i.imgur.com/inakhK6.png"
@@ -388,7 +404,7 @@
       "cta": [
         {
           "link": "https://softwarenacho.github.io/trivia",
-          "label": "Website"
+          "label": "Play"
         },
         {
           "link": "https://github.com/softwarenacho/trivia",
@@ -401,6 +417,7 @@
         "es": "CodeaProposals",
         "en": "CodeaProposals"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/ZNDUXKe.png",
         "https://i.imgur.com/xXCQ3o6.png"
@@ -416,6 +433,7 @@
         "es": "Locomotion / Codea",
         "en": "Locomotion / Codea"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/OGoRr8V.png",
         "https://i.imgur.com/rt3IDxI.png",
@@ -433,6 +451,7 @@
         "es": "CodeaSpots",
         "en": "CodeaSpots"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/vlKTIAf.png",
         "https://i.imgur.com/6hyQBQS.png"
@@ -448,6 +467,7 @@
         "es": "MDMA / Future Game",
         "en": "MDMA / Future Game"
       },
+      "tag": "personal",
       "images": [
         "https://i.imgur.com/tZe5lpN.png",
         "https://i.imgur.com/HafNJ1X.png",
@@ -470,6 +490,7 @@
         "es": "iVoy",
         "en": "iVoy"
       },
+      "tag": "work",
       "images": [
         "https://i.imgur.com/jA1cYma.png",
         "https://i.imgur.com/xM52gzF.png",
@@ -493,6 +514,7 @@
         "es": "OliNacho",
         "en": "OliNacho"
       },
+      "tag": "personal",
       "images": [
         "https://i.imgur.com/nKpVSr0.png",
         "https://i.imgur.com/yXTuBxB.png"
@@ -508,6 +530,7 @@
         "es": "Medvent",
         "en": "Medvent"
       },
+      "tag": "personal",
       "images": ["https://i.imgur.com/OVYgZEN.png"],
       "description": {
         "es": "Plataforma de venta en línea personalizada de productos farmaceuticos desarrollada de manera progresiva, lo que permite su uso como página web y como aplicación movil, así como uso de servicios offline para el cliente, incluye un panel de administración donde el administrador puede añadir productos y promociones, consultar las existencias y pedidos. El cliente puede seleccionar sus elementos en un carrito desde el es posible también realizar el pago gracias a la integración de Sr. Pago.",
@@ -520,6 +543,7 @@
         "es": "Clearview",
         "en": "Clearview"
       },
+      "tag": "work",
       "images": ["https://i.imgur.com/2v8rg8W.png"],
       "description": {
         "es": "Clearview es un proyecto enfocado en mejorar el proceso de trabajo de los desarrolladores de software con clientes, muestra diferentes secciones que permitirán al cliente tener la confianza de que su proyecto está avanzando y siendo trabajado día, mostrando el status y objetivos del mismo, así como las horas trabajadas por cada desarrollador, está desarrollado en Ruby on Rails usando la API de Teamwork como fuente.",
@@ -529,9 +553,37 @@
     },
     {
       "title": {
+        "es": "Close a Curtain",
+        "en": "Close a Curtain"
+      },
+      "tag": "personal",
+      "images": [
+        "https://i.imgur.com/wODdWqD.png",
+        "https://i.imgur.com/iKbPqeo.gif",
+        "https://i.imgur.com/eYGyJzZ.png",
+        "https://i.imgur.com/TU7Dw1f.gif"
+      ],
+      "description": {
+        "es": "Este es un componente que implementa un efecto de cierre de cortinas que dinamicamente se abre y se cierra con la interacción del usuario. Perfecto para añadir una revelación dramatica o esconder una sección de tu aplicación web.",
+        "en": "This component features an animated curtain effect that dynamically opens and closes based on user interactions. Perfect for adding a dramatic reveal or a hidden content section to your web application."
+      },
+      "cta": [
+        {
+          "link": "https://close-a-curtain.vercel.app/",
+          "label": "Website"
+        },
+        {
+          "link": "https://github.com/softwarenacho/close-a-curtain",
+          "label": "Github"
+        }
+      ]
+    },
+    {
+      "title": {
         "es": "Volovanes Fitness",
         "en": "Volovanes Fitness"
       },
+      "tag": "personal",
       "images": [
         "https://i.imgur.com/mqv1NY0.png",
         "https://i.imgur.com/p065Zl5.png"

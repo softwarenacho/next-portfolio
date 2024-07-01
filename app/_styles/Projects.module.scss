@@ -10,8 +10,16 @@
   background: v.$main-blue;
   padding: 4rem 2rem;
   @include v.shadow;
-  h3 {
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: 4rem;
+    flex-direction: column;
+    @media screen and (min-width: 600px) {
+      flex-direction: row;
+    }
   }
 }
 
@@ -44,15 +52,46 @@
     text-wrap: nowrap;
   }
   @include v.shadow;
-  img {
-    @include v.shadow;
-    object-fit: cover;
-    object-position: top;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    cursor: pointer;
+}
+
+.filter {
+  position: relative;
+  font-size: 1.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  color: #000;
+  margin-top: 2rem;
+  cursor: pointer;
+  text-align: center;
+  @media screen and (min-width: 600px) {
+    position: absolute;
+    right: 2rem;
+    margin-top: 0;
   }
+}
+
+.imageContainer {
+  perspective: 1000px;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover .projectImage {
+    transform: rotateY(180deg);
+  }
+}
+
+.projectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  transition: transform 0.6s;
+  backface-visibility: hidden;
 }
 
 .description {
@@ -60,6 +99,11 @@
   overflow: scroll;
   padding: 0 1rem;
   line-height: 24px;
+}
+
+.longDescription {
+  height: 255px;
+  margin-bottom: 4rem;
 }
 
 .links {
