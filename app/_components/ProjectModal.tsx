@@ -29,6 +29,9 @@ const ProjectModal = ({
     const change = projects[newIndex];
     if (change) {
       setProject(change);
+    } else {
+      const rotate = projects[direction === 'next' ? 0 : projects.length - 1];
+      setProject(rotate);
     }
   };
 
